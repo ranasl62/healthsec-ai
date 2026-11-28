@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "HealthSec-AI: An Open-Source Toolkit for Robustness and Data-Quality Stress Testing of Tabular Clinical Prediction Models, with Case Studies in Coronary Heart Disease and ICU Mortality"
+version: "0.2.1"
+date-released: "2026-11-27"
+authors:
+  - family-names: Hossain
+    given-names: Md Rana
+    orcid: "https://orcid.org/0009-0005-5996-719X"
+  - family-names: Tanvir
+    given-names: Farhan
+    orcid: "https://orcid.org/0009-0000-7321-8850"
+    email: farhanta@umich.edu
+    affiliation: "Department of Computer and Information Science, University of Michigan–Dearborn, Dearborn, MI, USA"
+  - family-names: Rone
+    given-names: Ponchanon Datta
+    orcid: "https://orcid.org/0009-0006-6139-6928"
+    email: ponchanondatta.rone@miu.edu
+  - family-names: Mahmud
+    given-names: Khaled
+    orcid: "https://orcid.org/0009-0002-1492-8195"
+    email: Khaled.Mahmud@stu.wcccd.edu
+    affiliation: "Department of Cybersecurity, Wayne County Community College District (WCCCD), MI, USA"
+  - family-names: Khan
+    given-names: Md Tanvir Rahman
+    orcid: "https://orcid.org/0009-0005-9626-9024"
+    email: mdtanvir.khan@miu.edu
+    affiliation: "Maharishi International University, Fairfield, IA, USA"
+  - family-names: Hasnat
+    given-names: Md. Abul
+    orcid: "https://orcid.org/0009-0002-1257-1874"
+    email: abul15-13578@diu.edu.bd
+    affiliation: "Department of Computer Science and Engineering, Daffodil International University, Dhaka, Bangladesh"
+license: MIT
+repository-code: "https://github.com/ranasl62/healthsec-ai"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24579625"
+keywords:
+  - clinical prediction
+  - robustness
+  - data integrity
+  - adversarial machine learning
+  - reproducibility
+  - open-source software

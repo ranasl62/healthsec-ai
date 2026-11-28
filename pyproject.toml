@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "healthsec-ai"
+version = "0.2.1"
+description = "Robustness and integrity stress-testing toolkit for tabular clinical prediction models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Md Rana Hossain" }]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "scikit-learn>=1.4",
+  "xgboost>=2.0",
+]
+
+[project.scripts]
+healthsec = "healthsec_ai.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["healthsec_ai*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
